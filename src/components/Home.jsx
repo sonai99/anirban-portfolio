@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
-import Html from "../assets/html.png";
+// import Html from "../assets/html.png";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { Link } from "react-scroll";
 import cv from "../assets/cv.pdf";
