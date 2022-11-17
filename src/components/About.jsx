@@ -28,13 +28,17 @@ const About = () => {
         </div>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I am Anirban, a passionate Software Engineer form India.</p>
+              <p>Hi. I am Anirban, a passionate Software Engineer from India</p>
           </div>
           <div>
             <p>Currently working @Capgemini ERND (Sept' 21 - Current), worked on the following</p>
             <ul className='list-disc'>
-              <li>Python Automation using ROBOT framework (Sept' 21 - Feb' 22)</li>
-              <li>Embedded Systems (Mar' 22 - Current)</li>
+              <p>
+              Python Automation using ROBOT framework (Sept' 21 - Feb' 22)
+              Embedded Systems (Mar' 22 - Current)
+              </p>
+              {/* <li>Python Automation using ROBOT framework (Sept' 21 - Feb' 22)</li>
+              <li>Embedded Systems (Mar' 22 - Current)</li> */}
             <p className='text- font-bold text-green-100'>Winner of the Outstanding Contribution in Delivery Team Award (ER&D), 2022 </p>
             </ul>
           </div>
