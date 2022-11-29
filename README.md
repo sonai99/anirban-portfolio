@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-#Still under development
+[Live Demo](https://anirban-dutta-portfolio.netlify.app/)
 
 A Responsive developer portfolio created with React and Tailwind CSS.
 
