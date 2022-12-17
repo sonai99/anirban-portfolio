@@ -16,26 +16,32 @@ const Portfolio = () => {
         demo: "https://anirban-dutta-portfolio.netlify.app/",
         code: "https://github.com/sonai99/anirban-portfolio",
       },
-      {
+        {
         id: 2,
+        src: employeemanagement,
+        demo:"https://anirban-employee-management.netlify.app/",
+        code:"https://github.com/sonai99/Employee-Management-System",
+      },
+      {
+        id: 3,
         src: todo,
         demo:"https://anirban-todo-app.netlify.app/",
         code:"https://github.com/sonai99/ToDo-List-App",
       },
       {
-        id: 3,
+        id: 4,
         src: jokegenerator,
         demo:"https://anirban-joke-generator.netlify.app/",
         code:"https://github.com/sonai99/Programming-Joke-Generator",
       },
       {
-        id: 4,
+        id: 5,
         src: lightdarkmode,
         demo:"https://anirban-light-dark-mode-toggler.netlify.app/",
         code:"https://github.com/sonai99/Dark-Mode-Toggle",
       },
       {
-        id: 5,
+        id: 6,
         src: devilbutton,
         demo:"https://anirban-dutta-devil-button.netlify.app/",
         code:"https://github.com/sonai99/Devil-Button-Can-t-touch-it",
@@ -46,12 +52,7 @@ const Portfolio = () => {
 //         demo:"https://anirban-digital-clock.netlify.app/",
 //         code:"https://github.com/sonai99/Digital-Clock-Javascript",
 //       },
-        {
-        id: 6,
-        src: employeemanagement,
-        demo:"https://anirban-employee-management.netlify.app/",
-        code:"https://github.com/sonai99/Employee-Management-System",
-      },
+        
         
     ];
   
