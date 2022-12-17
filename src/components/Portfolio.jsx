@@ -4,7 +4,7 @@ import todo from "../assets/portfolio/todo.png"
 import jokegenerator from "../assets/portfolio/jokegenerator.png"
 import lightdarkmode from "../assets/portfolio/lightdarkmode.png"
 import devilbutton from "../assets/portfolio/devilbutton.png"
-import digitalclock from "../assets/portfolio/digitalclock.png"
+// import digitalclock from "../assets/portfolio/digitalclock.png"
 import employeemanagement from "../assets/portfolio/employeemanagement.png"
 
 
@@ -40,14 +40,14 @@ const Portfolio = () => {
         demo:"https://anirban-dutta-devil-button.netlify.app/",
         code:"https://github.com/sonai99/Devil-Button-Can-t-touch-it",
       },
-      {
-        id: 6,
-        src: digitalclock,
-        demo:"https://anirban-digital-clock.netlify.app/",
-        code:"https://github.com/sonai99/Digital-Clock-Javascript",
-      },
+//       {
+//         id: 6,
+//         src: digitalclock,
+//         demo:"https://anirban-digital-clock.netlify.app/",
+//         code:"https://github.com/sonai99/Digital-Clock-Javascript",
+//       },
         {
-        id: 7,
+        id: 6,
         src: employeemanagement,
         demo:"https://anirban-employee-management.netlify.app/",
         code:"https://github.com/sonai99/Employee-Management-System",
