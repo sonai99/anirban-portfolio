@@ -2,44 +2,51 @@ import React from 'react'
 import portfolio from "../assets/portfolio/portfolio.png"
 import todo from "../assets/portfolio/todo.png"
 import jokegenerator from "../assets/portfolio/jokegenerator.png"
-import lightdarkmode from "../assets/portfolio/lightdarkmode.png"
+// import lightdarkmode from "../assets/portfolio/lightdarkmode.png"
 import devilbutton from "../assets/portfolio/devilbutton.png"
 // import digitalclock from "../assets/portfolio/digitalclock.png"
 import employeemanagement from "../assets/portfolio/employeemanagement.png"
+import crypton from "../assets/portfolio/crypton.png"
 
 
 const Portfolio = () => {
     const portfolios = [
       {
         id: 1,
+        src: crypton,
+        demo: "https://anirban-crypton.netlify.app/",
+        code: "https://github.com/sonai99/CryptoN",
+      },
+      {
+        id: 2,
         src: portfolio,
         demo: "https://anirban-dutta-portfolio.netlify.app/",
         code: "https://github.com/sonai99/anirban-portfolio",
       },
         {
-        id: 2,
+        id: 3,
         src: employeemanagement,
         demo:"https://anirban-employee-management.netlify.app/",
         code:"https://github.com/sonai99/Employee-Management-System",
       },
       {
-        id: 3,
+        id: 4,
         src: todo,
         demo:"https://anirban-todo-app.netlify.app/",
         code:"https://github.com/sonai99/ToDo-List-App",
       },
       {
-        id: 4,
+        id: 5,
         src: jokegenerator,
         demo:"https://anirban-joke-generator.netlify.app/",
         code:"https://github.com/sonai99/Programming-Joke-Generator",
       },
-      {
-        id: 5,
-        src: lightdarkmode,
-        demo:"https://anirban-light-dark-mode-toggler.netlify.app/",
-        code:"https://github.com/sonai99/Dark-Mode-Toggle",
-      },
+      // {
+      //   id: 6,
+      //   src: lightdarkmode,
+      //   demo:"https://anirban-light-dark-mode-toggler.netlify.app/",
+      //   code:"https://github.com/sonai99/Dark-Mode-Toggle",
+      // },
       {
         id: 6,
         src: devilbutton,
