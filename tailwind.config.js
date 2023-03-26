@@ -3,8 +3,13 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      signature: ["Great Vibes"],
-    },
+      'sans': ['ui-sans-serif', 'system-ui', ],
+      'serif': ['ui-serif', 'Georgia', ],
+      'mono': ['ui-monospace', 'SFMono-Regular', ],
+      'display': ['Oswald', ],
+      'body': ['"Open Sans"', ],
+      'roboto' : ['Roboto'],
+    }
   },
   plugins: [],
 };
