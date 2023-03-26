@@ -126,7 +126,7 @@ const HomeTest = () => {
                <div class="my-4"></div>
                <div>
                  <h4 class="text-xl font-bold tracking-tight text-gray-900 ">Portfolio</h4>
-                 <p class="leading-6 pt-4 text-gray-700 mb-3">A minimal personal portfolio for a myself. A good online presence to provide proof of work to the potential recruiters who might want to hire me. Thanks for visiting.</p>
+                 <p class="leading-6 pt-4 text-gray-700 mb-3">A minimal personal portfolio for myself. A good online presence to provide proof of work to the potential recruiters who might want to hire me. Thanks for visiting.</p>
                  <a href="https://anirban-dutta-portfolio.netlify.app/" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold mr-4 rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2" rel="noreferrer">Demo 🔗</a>
                  <a href="https://github.com/sonai99/anirban-portfolio" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2 " rel="noreferrer">Code</a>
                </div>
