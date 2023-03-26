@@ -152,8 +152,8 @@ const Portfolio = () => {
                <div>
                  <h4 class="text-xl font-bold tracking-tight text-gray-900 ">{portfolio.name}</h4>
                  <img src={portfolio.src} alt="" class="mb-4"/>
-                 <a href="https://anirban-crypton.netlify.app/" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold mr-4 rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2" rel="noreferrer">Demo 🔗</a>
-                 <a href="https://github.com/sonai99/CryptoN" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2 " rel="noreferrer">Code</a>
+                 <a href={portfolio.demo} target="_blank" class="items-center text-sm my-4 mx-auto font-semibold mr-4 rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2" rel="noreferrer">Demo 🔗</a>
+                 <a href={portfolio.code} target="_blank" class="items-center text-sm my-4 mx-auto font-semibold rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2 " rel="noreferrer">Code</a>
                </div>
              </div>
            </div>
