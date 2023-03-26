@@ -11,6 +11,7 @@ import python from "../assets/python.png";
 import heroImage from "../assets/heroImage.png";
 // import anirban from "../assets/anirban.jpeg";
 import cv from "../assets/cv.pdf";
+import { Link } from 'react-router-dom'
 
 
 
@@ -133,9 +134,9 @@ const HomeTest = () => {
            </div>
          </div>   
           </div>
-          <a href="/portfolio" type='button' class="border px-4 py-2 flex items-center text-sm my-4 mx-auto hover:bg-gray-100 rounded-md font-medium text-gray-900">See More 
+          <Link to="/portfolio" type='button' class="border px-4 py-2 flex items-center text-sm my-4 mx-auto hover:bg-gray-100 rounded-md font-medium text-gray-900">See More 
             <svg class="h-4 w-4 ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-          </a>
+          </Link>
 
 
 
