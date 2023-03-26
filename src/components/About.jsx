@@ -18,32 +18,52 @@ const About = () => {
     //   </div>
     // </div>
     
-    <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
-      <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'> 
-          <div className='sm:text-right pb-8 pl-8'> 
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600'>About</p>
-          </div>
+    // <div name='about' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+    //   <div className='flex flex-col justify-center items-center w-full h-full'>
+    //     <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'> 
+    //       <div className='sm:text-right pb-8 pl-8'> 
+    //         <p className='text-4xl font-bold inline border-b-4 border-pink-600'>About</p>
+    //       </div>
           
-        </div>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I am Anirban, a passionate Software Engineer from India</p>
+    //     </div>
+    //     <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+    //       <div className='sm:text-right text-4xl font-bold'>
+    //           <p>Hi. I am Anirban, a passionate Software Engineer from India</p>
+    //       </div>
+    //       <div>
+    //         <p>Currently working @Capgemini ERND (Sept' 21 - Current), worked on the following</p>
+    //         <ul className='list-disc'>
+    //           <p>
+    //           Python Automation using ROBOT framework (Sept' 21 - Feb' 22)
+    //           Embedded Systems (Mar' 22 - Current)
+    //           </p>
+    //           {/* <li>Python Automation using ROBOT framework (Sept' 21 - Feb' 22)</li>
+    //           <li>Embedded Systems (Mar' 22 - Current)</li> */}
+    //         <p className='text- font-bold text-green-100'>Winner of the Outstanding Contribution in Delivery Team Award (ER&D), 2022 </p>
+    //         </ul>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+
+
+    <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+        <h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black">About</h1>
+        <p class="text-gray-600  mb-4 font-sans">
+          I am a very detail oriented Software Engineer currently working at Capgemini as a Software Engineer (Sept, 2021' - Current). In my current Organization i have wont two awards for being "The Most valuable Contributor in Project".
+          I am Proficient in C++, DSA, Object Oriented Programming, System Design, and MERN Stack. I am also a Passionate Web Developer, and a Open Source Contributor/ Mentor. 
+        </p>
+        <div class="w-full">
+          <div class="flex flex-col md:flex-row justify-between">
+            <p class="text-xs	 font-semibold md:text-xl w-full text-gray-900 ">Software Engineer @Capgemini</p>
+            <p class="text-gray-500 text-left md:text-right w-32 mb-4 md:mb-0">2021 - Current</p>
           </div>
-          <div>
-            <p>Currently working @Capgemini ERND (Sept' 21 - Current), worked on the following</p>
-            <ul className='list-disc'>
-              <p>
-              Python Automation using ROBOT framework (Sept' 21 - Feb' 22)
-              Embedded Systems (Mar' 22 - Current)
-              </p>
-              {/* <li>Python Automation using ROBOT framework (Sept' 21 - Feb' 22)</li>
-              <li>Embedded Systems (Mar' 22 - Current)</li> */}
-            <p className='text- font-bold text-green-100'>Winner of the Outstanding Contribution in Delivery Team Award (ER&D), 2022 </p>
-            </ul>
+          <hr />
+          <div class="flex flex-col md:flex-row justify-between mt-2">
+            <p class="text-xs	 md:text-xl w-full text-gray-900 ">Software Engineer @Capgemini</p>
+            <p class="text-gray-500 text-left md:text-right w-32 mb-4 md:mb-0">2021 - Current</p>
           </div>
         </div>
-      </div>
     </div>
   )
 }
