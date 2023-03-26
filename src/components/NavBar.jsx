@@ -2,6 +2,7 @@ import React  from "react";
 // import  { FaBars, FaTimes } from "react-icons/fa";
 // import { Link } from "react-scroll";
 // import { NavLink } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 
 const NavBar = () => {
@@ -103,9 +104,9 @@ const NavBar = () => {
             <a href="/" className='text-5xl font-bold underline'>ad.</a>
             </h1>
           <div class="sm:block rounded-full bg-white/90 px-3 text-sm font-medium  shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur ">
-            <a href="/" class="relative rounded-lg px-3 cursor-pointer inline-block py-2 text-sm transition-all delay-150 hover:text-gray-900 ">Home</a>
+            <Link to="/" class="relative rounded-lg px-3 cursor-pointer inline-block py-2 text-sm transition-all delay-150 hover:text-gray-900 ">Home</Link>
             {/* <a class="relative rounded-lg px-3 cursor-pointer inline-block py-2 text-sm transition-all delay-150 hover:text-gray-900 ">About</a> */}
-            <a href="/portfolio" class="relative rounded-lg px-3 cursor-pointer inline-block py-2 text-sm transition-all delay-150 hover:text-gray-900 ">Projects</a>
+            <Link to="/portfolio" class="relative rounded-lg px-3 cursor-pointer inline-block py-2 text-sm transition-all delay-150 hover:text-gray-900 ">Projects</Link>
           </div>
         </nav>
   );
