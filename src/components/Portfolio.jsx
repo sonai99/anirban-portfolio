@@ -9,10 +9,18 @@ import devilbutton from "../assets/portfolio/devilbutton.png"
 import crypton from "../assets/portfolio/crypton.png"
 import jobify from "../assets/portfolio/jobify.png"
 import staffmate from "../assets/portfolio/staffmate.png"
+import annonyblog from "../assets/portfolio/AnnonyBlog.png"
 
 
 const Portfolio = () => {
     const portfolios = [
+      {
+        id: 1,
+        name: "AnnonyBlog",
+        src: annonyblog,
+        demo: "https://github.com/sonai99/AnnonyBlog-MERN",
+        code: "https://github.com/sonai99/AnnonyBlog-MERN",
+      },
       {
         id: 1,
         name: "Crypton",
@@ -139,7 +147,7 @@ const Portfolio = () => {
          <div class="bg-white ">
          <main class="flex flex-col justify-center bg-white px-8 text-gray-900 antialiased">
          <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-         <h1 class="font-bold text-5xl mb-4 md:text-4xl tracking-tight mt-8 text-black ">Projects</h1>
+         <h1 class="font-bold text-5xl mb-4 md:text-4xl tracking-tight mt-8 text-black ">Projects</h1>         
           <div class="flex flex-col md:flex-row justify-between items-start md:space-x-14 w-full mb-10">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             {portfolios.map((portfolio) => (

@@ -8,13 +8,14 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import linux from "../assets/linux.png";
 import python from "../assets/python.png";
+import node from "../assets/node.png";
 
 const Experience = () => {
 
     const array = [
         {
           id: 1,
-          src: html,
+          src: node,
           title: "HTML",
           shadow: "shadow-orange-500",
         },

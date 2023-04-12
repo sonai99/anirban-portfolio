@@ -1,6 +1,11 @@
 import React from 'react'
 import html from "../assets/html.png";
+import node from "../assets/node.png";
+import mongo from "../assets/mongo.png";
+import express from "../assets/express.png";
 import css from "../assets/css.png";
+import java from "../assets/java.png";
+import chatgpt from "../assets/chatgpt.png";
 import javascript from "../assets/javascript.png";
 import cpp from "../assets/cpp.png";
 import reactImage from "../assets/react.png";
@@ -79,6 +84,21 @@ const HomeTest = () => {
              <div class=" flex flex-row items-start dark:border-gray-800 rounded p-4 relative">
                <div class="my-4"></div>
                <div>
+                 <h4 class="text-xl font-bold tracking-tight text-gray-900 ">AnnonyBlog</h4>
+                 <p class="leading-6 pt-4 text-gray-700 mb-3">AnnonyBlog is a Full Stack Blog Application created with React, Node, Express, MongoDB, JWT, Bcrypt. Users can register, login, create blogs, like and comment on it.</p>
+                 <a href="https://github.com/sonai99/AnnonyBlog-MERN" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold mr-4 rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2" rel="noreferrer">Demo 🔗</a>
+                 <a href="https://github.com/sonai99/AnnonyBlog-MERN" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2 " rel="noreferrer">Code</a>
+               </div>
+             </div>
+           </div>
+         </div>   
+          <div class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
+           <span class="absolute w-[40%] -bottom-px right-px h-px bg-gradient-to-r from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
+           <span class="absolute w-px -left-px h-[40%] bg-gradient-to-b from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
+           <div class="relative h-full">
+             <div class=" flex flex-row items-start dark:border-gray-800 rounded p-4 relative">
+               <div class="my-4"></div>
+               <div>
                  <h4 class="text-xl font-bold tracking-tight text-gray-900 ">CryptoN</h4>
                  <p class="leading-6 pt-4 text-gray-700 mb-3">CryptoN is a all in one crptocurrency marketplace to stay up to date with all your favourite cryptocurrencies to help you #trade_better. View current prices and details of your favourite Coins.</p>
                  <a href="https://anirban-crypton.netlify.app/" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold mr-4 rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2" rel="noreferrer">Demo 🔗</a>
@@ -118,21 +138,7 @@ const HomeTest = () => {
              </div>
            </div>
          </div>   
-         <div class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
-           <span class="absolute w-[40%] -bottom-px right-px h-px bg-gradient-to-r from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
-           <span class="absolute w-px -left-px h-[40%] bg-gradient-to-b from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
-           <div class="relative h-full">
-             <div class=" flex flex-row items-start dark:border-gray-800 rounded p-4 relative">
-               <div class="my-4"></div>
-               <div>
-                 <h4 class="text-xl font-bold tracking-tight text-gray-900 ">Portfolio</h4>
-                 <p class="leading-6 pt-4 text-gray-700 mb-3">A minimal personal portfolio for myself. A good online presence to provide proof of work to the potential recruiters who might want to hire me. Thanks for visiting.</p>
-                 <a href="https://anirban-dutta-portfolio.netlify.app/" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold mr-4 rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2" rel="noreferrer">Demo 🔗</a>
-                 <a href="https://github.com/sonai99/anirban-portfolio" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2 " rel="noreferrer">Code</a>
-               </div>
-             </div>
-           </div>
-         </div>   
+         
           </div>
           <Link to="/portfolio" type='button' class="border px-4 py-2 flex items-center text-sm my-4 mx-auto hover:bg-gray-100 rounded-md font-medium text-gray-900">See More 
             <svg class="h-4 w-4 ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
@@ -149,6 +155,15 @@ const HomeTest = () => {
               <div class="relative h-full">
                 <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
                   <div>
+                  <img src={node} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div href="" class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
+              <div class="relative h-full">
+                <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
+                  <div>
                   <img src={reactImage} alt="" />
                   </div>
                 </div>
@@ -158,7 +173,52 @@ const HomeTest = () => {
               <div class="relative h-full">
                 <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
                   <div>
+                  <img src={mongo} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div href="" class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
+              <div class="relative h-full">
+                <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
+                  <div>
+                  <img src={express} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div href="" class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
+              <div class="relative h-full">
+                <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
+                  <div>
                   <img src={javascript} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div href="" class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
+              <div class="relative h-full">
+                <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
+                  <div>
+                  <img src={java} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div href="" class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
+              <div class="relative h-full">
+                <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
+                  <div>
+                  <img src={html} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div href="" class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
+              <div class="relative h-full">
+                <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
+                  <div>
+                  <img src={css} alt="" />
                   </div>
                 </div>
               </div>
@@ -185,7 +245,7 @@ const HomeTest = () => {
               <div class="relative h-full">
                 <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
                   <div>
-                  <img src={html} alt="" />
+                  <img src={python} alt="" />
                   </div>
                 </div>
               </div>
@@ -203,15 +263,6 @@ const HomeTest = () => {
               <div class="relative h-full">
                 <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
                   <div>
-                  <img src={css} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div href="" class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
-              <div class="relative h-full">
-                <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
-                  <div>
                   <img src={linux} alt="" />
                   </div>
                 </div>
@@ -221,7 +272,7 @@ const HomeTest = () => {
               <div class="relative h-full">
                 <div class=" flex flex-col items-start dark:border-gray-800 rounded p-4 relative">
                   <div>
-                  <img src={python} alt="" />
+                  <img src={chatgpt} alt="" />
                   </div>
                 </div>
               </div>
