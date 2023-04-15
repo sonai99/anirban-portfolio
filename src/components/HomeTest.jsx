@@ -58,7 +58,7 @@ const HomeTest = () => {
                 <a href="https://www.linkedin.com/in/anirban-dutta-6a2bb317a/" target="_blank" class="inline-block px-2 py-0 font-bold bg-gray-100 rounded-md mx-1" rel="noreferrer">Capgemini</a>
                  | Full Stack Developer 
               </div>
-              <p class="text-zinc-600 dark:text-zinc-500 font-body">I am a detail oriented Software Engineer currently working at Capgemini.
+              <p class="text-zinc-600">I am a detail oriented Software Engineer currently working at Capgemini.
               I am a passionate Web Developer [MERN] and a Open Source Contributor & Mentor.<br />
               I like Coding, Lifting weights, Football and music. <br />
               <button onClick={downloadResume} class="border font-semibold hover:bg-gray-50 rounded-md p-1 mt-2 ">Resume →</button>
