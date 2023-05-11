@@ -10,6 +10,7 @@ import crypton from "../assets/portfolio/crypton.png"
 import jobify from "../assets/portfolio/jobify.png"
 import staffmate from "../assets/portfolio/staffmate.png"
 import annonyblog from "../assets/portfolio/AnnonyBlog.png"
+import shopeasy from "../assets/portfolio/shopeasy.png"
 
 
 const Portfolio = () => {
@@ -22,35 +23,42 @@ const Portfolio = () => {
         code: "https://github.com/sonai99/AnnonyBlog-MERN",
       },
       {
-        id: 1,
+        id: 2,
+        name: "ShopEasy",
+        src: shopeasy,
+        demo: "https://anirban-shopease.netlify.app/",
+        code: "https://github.com/sonai99/ShopEase",
+      },
+      {
+        id: 3,
         name: "Crypton",
         src: crypton,
         demo: "https://anirban-crypton.netlify.app/",
         code: "https://github.com/sonai99/CryptoN",
       },
       {
-        id: 2,
+        id: 4,
         name: "Jobify",
         src: jobify,
         demo: "https://anirban-jobify.netlify.app/",
         code: "https://github.com/sonai99/Jobify",
       },
         {
-        id: 3,
+        id: 5,
         name: "StaffMate",
         src: staffmate,
         demo:"https://anirban-staffmate.netlify.app/",
         code:"https://github.com/sonai99/staffmate",
       },
       {
-        id: 4,
+        id: 6,
         src: portfolio,
         name: "Portfolio",
         demo:"https://anirban-dutta-portfolio.netlify.app/",
         code:"https://github.com/sonai99/anirban-portfolio",
       },
       {
-        id: 5,
+        id: 7,
         src: todo,
         name: "TO-DO App",
         demo:"https://anirban-todo-app.netlify.app/",
@@ -63,7 +71,7 @@ const Portfolio = () => {
       //   code:"https://github.com/sonai99/anirban-portfolio",
       // },
       {
-        id: 6,
+        id: 8,
         src: devilbutton,
         name: "The Devil Button",
         demo:"https://anirban-dutta-devil-button.netlify.app/",
