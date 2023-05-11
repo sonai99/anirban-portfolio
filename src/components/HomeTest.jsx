@@ -92,6 +92,25 @@ const HomeTest = () => {
              </div>
            </div>
          </div>   
+
+
+         <div class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
+           <span class="absolute w-[40%] -bottom-px right-px h-px bg-gradient-to-r from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
+           <span class="absolute w-px -left-px h-[40%] bg-gradient-to-b from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
+           <div class="relative h-full">
+             <div class=" flex flex-row items-start dark:border-gray-800 rounded p-4 relative">
+               <div class="my-4"></div>
+               <div>
+                 <h4 class="text-xl font-bold tracking-tight text-gray-900 ">Shopeasy</h4>
+                 <p class="leading-6 pt-4 text-gray-700 mb-3">Shopeasy is an E-commerce application built with ReactJs. A Very detailed shopping platform with all the latest features that modern ecom stores provide.</p>
+                 <a href="https://anirban-shopease.netlify.app/" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold mr-4 rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2" rel="noreferrer">Demo 🔗</a>
+                 <a href="https://github.com/sonai99/ShopEase" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2 " rel="noreferrer">Code</a>
+               </div>
+             </div>
+           </div>
+         </div>   
+
+
           <div class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
            <span class="absolute w-[40%] -bottom-px right-px h-px bg-gradient-to-r from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
            <span class="absolute w-px -left-px h-[40%] bg-gradient-to-b from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
@@ -107,6 +126,8 @@ const HomeTest = () => {
              </div>
            </div>
          </div>   
+
+
          <div class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
            <span class="absolute w-[40%] -bottom-px right-px h-px bg-gradient-to-r from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
            <span class="absolute w-px -left-px h-[40%] bg-gradient-to-b from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
@@ -123,21 +144,7 @@ const HomeTest = () => {
              </div>
            </div>
          </div>   
-         <div class="group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-slate-200  w-full">
-           <span class="absolute w-[40%] -bottom-px right-px h-px bg-gradient-to-r from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
-           <span class="absolute w-px -left-px h-[40%] bg-gradient-to-b from-blue-700/0 via-blue-700/40 to-blue-700/0 dark:from-blue-400/0 dark:via-blue-400/40 dark:to-blue-400/0"></span>
-           <div class="relative h-full">
-             <div class=" flex flex-row items-start dark:border-gray-800 rounded p-4 relative">
-               <div class="my-4"></div>
-               <div>
-                 <h4 class="text-xl font-bold tracking-tight text-gray-900 ">Jobify</h4>
-                 <p class="leading-6 pt-4 text-gray-700 mb-3">Jobify is a Job Portal where Candidates can find their dream job from the available Job listings and Organizations can Post Job's and hire form the Best Talen in the country.</p>
-                 <a href="https://anirban-jobify.netlify.app/" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold mr-4 rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2" rel="noreferrer">Demo 🔗</a>
-                 <a href="https://github.com/sonai99/Jobify" target="_blank" class="items-center text-sm my-4 mx-auto font-semibold rounded-md  hover:bg-gray-100 text-gray-900 border px-4 py-2 " rel="noreferrer">Code</a>
-               </div>
-             </div>
-           </div>
-         </div>   
+
          
           </div>
           <Link to="/portfolio" type='button' class="border px-4 py-2 flex items-center text-sm my-4 mx-auto hover:bg-gray-100 rounded-md font-medium text-gray-900">See More 
