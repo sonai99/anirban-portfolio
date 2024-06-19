@@ -54,13 +54,12 @@ const HomeTest = () => {
           <div class="flex flex-col md:flex-row justify-between items-start md:space-x-14 w-full mb-10">
             <div class="flex md:w-3/4 flex-col mt-6">
               <h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-2  text-black">Anirban Dutta</h1>
-              <div class="relative leading-7 items-center flex-wrap text-zinc-700  mb-5 font-semibold">Associate II at
-                <a href="https://www.linkedin.com/in/anirban-dutta-6a2bb317a/" target="_blank" class="inline-block px-2 py-0 font-bold bg-gray-100 rounded-md mx-1" rel="noreferrer">Capgemini</a>
-                 | Full Stack Developer 
+              <div class="relative leading-7 items-center flex-wrap text-zinc-700  mb-5 font-semibold">SWE 2
+                <a href="https://www.linkedin.com/in/anirban-dutta-6a2bb317a/" target="_blank" class="inline-block px-2 py-0 font-bold bg-gray-100 rounded-md mx-1" rel="noreferrer">CISCO</a>
               </div>
-              <p class="text-zinc-600">I am a detail oriented Software Engineer currently working at Capgemini.
-              I am a passionate Web Developer [MERN] and a Open Source Contributor & Mentor.<br />
-              I like Coding, Lifting weights, Football and music. <br />
+              <p class="text-zinc-600">I am an experienced Software Developer currently working as a Software Engineer 2 at Cisco. In my current role, I work in Cisco's MDS Fabric switches. 
+        My primary responsibilities involve creating and maintaining hardware-facing software solutions.
+        I work extensively with the Linux Kernel and Operating System Internals in C.
               <button onClick={downloadResume} class="border font-semibold hover:bg-gray-50 rounded-md p-1 mt-2 ">Resume →</button>
               </p>
             </div>
