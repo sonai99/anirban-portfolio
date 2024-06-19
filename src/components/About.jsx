@@ -50,13 +50,14 @@ const About = () => {
     <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
         <h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black">About</h1>
         <p class="text-gray-600  mb-4 font-sans">
-          I am a very detail oriented Software Engineer currently working at Capgemini as a Software Engineer (Sept, 2021' - Current). In my current Organization i have wont two awards for being "The Most valuable Contributor in Project".
-          I am Proficient in C++, DSA, Object Oriented Programming, System Design, and MERN Stack. I am also a Passionate Web Developer, and a Open Source Contributor/ Mentor. 
+        I am an experienced Software Developer currently working as a Software Engineer 2 at Cisco. In my current role, I work in Cisco's MDS Fabric switches. 
+        My primary responsibilities involve creating and maintaining hardware-facing software solutions. 
+        I work extensively with the Linux Kernel and Operating System Internals and C.
         </p>
         <div class="w-full">
           <div class="flex flex-col md:flex-row justify-between">
-            <p class="text-xs	 font-semibold md:text-xl w-full text-gray-900 ">Software Engineer @Capgemini</p>
-            <p class="text-gray-500 text-left md:text-right w-32 mb-4 md:mb-0">2021 - Current</p>
+            <p class="text-xs	 font-semibold md:text-xl w-full text-gray-900 ">SWE 2 @Cisco | 2023 - Current </p>
+            <p class="text-gray-500 text-left md:text-right w-32 mb-4 md:mb-0">Senior Software Engineer @Capgemini | 2021 - 2023</p>
           </div>
           <hr />
           <div class="flex flex-col md:flex-row justify-between mt-2">
